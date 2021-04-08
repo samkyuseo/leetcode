@@ -21,7 +21,6 @@ std::string decodeString(std::string s) {
                 k = stack.top()+k;
                 stack.pop(); 
             }
-
             for (int j=0; j<std::stoi(k); j++) {
                 for (int l=0; l<str.size(); l++) {
                     stack.push(str[l]);

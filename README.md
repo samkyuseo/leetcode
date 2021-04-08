@@ -1,0 +1,1 @@
+To compile: g++ -std=c++14 [filename.cpp] -o [filename] 
